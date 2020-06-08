@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/05/2019, 10:01:36
+    Author     : aluno
+*/
+
+h1.hi{
+    text-align: center;
+    font-size: 50px;
+    font-family: "impact", bold;
+    color: purple;
+}
+
+body.bhi{
+    background-color: gray;
+}
+
+body.b1{
+    background-color: #cccccc;
+}
+
+.reg{
+    background-color:white;
+    width:77%;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-bottom-style: groove;
+    border-color: black;
+    margin: auto;
+    padding: 12px; 
+    font-size: 12px;
+}
+
+.reg .h1.cadastro{
+    padding-right: 150px;
+    text-align: right;
+    float: right;
+    font-size: 50px;
+    font-family: "impact", bold;
+    color: purple;
+}
+
+.he {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom-style: outset;
+    border-color: black;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.he .right{
+    text-align: right;
+    float: right;
+    top: 15px;
+    font-size: 25px;
+    font-family: "impact";
+    color: black;
+    right: 15px;
+}
+
+
+.button{
+    font-size: 15px;
+    font-family: "impact";
+    color: black;
+    right: 15px;
+    background-color: whitesmoke;
+    border: black;
+    border-style: solid;
+}
+.button:hover{
+    
+    color: purple;
+    transition-delay: 0.1s;
+}
+
+.he .left{
+    text-align: left;
+    float: left;
+    top: 15px;
+    font-size: 35px;
+    font-family: "impact", bold;
+    color: purple;
+    right: 15px;
+}
+
+.he:hover{
+    background-color: purple;
+    transition-duration: 0.7s;
+}
+
+.he .left:hover{
+    color: white;
+    transition-duration: 0.7s;
+}
